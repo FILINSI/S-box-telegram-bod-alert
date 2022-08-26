@@ -6,7 +6,7 @@ from sqldb import sqldb
 
 
 
-TOKEN = '5633233488:AAHeDekLTlhSql0qRFS2Y5tzxVVZ8ZMYPak'
+TOKEN = 'token'
 
 bot = telebot.TeleBot(TOKEN)
 
