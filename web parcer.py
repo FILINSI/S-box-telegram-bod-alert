@@ -22,7 +22,7 @@ while True:
         
     time.sleep(1) 
 
-    if soup == 'key ':
+    if soup == 'key 10':
        time.sleep (500)
     else:
         time.sleep(0)
