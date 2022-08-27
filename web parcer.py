@@ -7,7 +7,6 @@ import requests
 import time
 import telebot
 
-''''Кодировка для получения данных из сайта'''
 # зациклить код до тех пор пока не будет найден нужный товар
 while True:
     link = "https://asset.party/get/developer/preview"
@@ -17,7 +16,7 @@ while True:
         soup = BeautifulSoup(webpage, 'html5lib')
     print (soup.find('span', attrs={'class':'tag'}).get_text())
 
-    # если началась разжача, заканчиваем программу 
+    # если началась раздача, заканчиваем программу 
     if soup.find('span', attrs={'class':'tag'}).get_text() != 'key 0':
         print ('Раздача началась')
         
